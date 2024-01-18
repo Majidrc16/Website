@@ -1,0 +1,543 @@
+/* Main Page containing whole data */
+.homepage {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/* Navbar */
+.navbar {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: darkgray;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Main Page containing three  "divs"
+1. "Logo" */
+
+.logo {
+  font-size: 2.8rem;
+}
+
+/* 2. Navitems */
+.navitems {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.showNavBtn {
+  display: none;
+}
+
+.navitems_show {
+  display: flex !important;
+  /* flex-direction:column ; */
+}
+
+/* Adding Media queries to "Navitems" */
+@media screen and (max-width: 480px) {
+  .navitems {
+    display: none;
+  }
+  .showNavBtn {
+    display: block;
+  }
+}
+
+/* Adding style to "Links" */
+.links {
+  color: white;
+  text-decoration-line: none;
+  font-size: 1.8rem;
+}
+
+/* Adding style to "Button" */
+.btn button {
+  height: 48px;
+  width: 179px;
+  border-radius: 5px;
+  background-color: #07073a5d;
+  cursor: pointer;
+}
+
+.btn p {
+  color: black;
+  font-size: 0.95rem;
+}
+
+.FFF {
+  background-image: url("GM.png");
+  background-size: cover;
+  height: 1000px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.TT {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  margin: 130px 175px auto;
+}
+.TTT {
+  font-size: 2.2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.RRR {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.35rem;
+  line-height: 38px;
+}
+.RRR:hover {
+  color: white;
+}
+/* Another div cotaining "images" & "Names" */
+
+.namedetails {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 110px;
+  width: 250px;
+  border-radius: 7px;
+  position: absolute;
+  top: 15%;
+  right: 27%;
+  justify-content: space-around;
+}
+@media (max-width: 800px) {
+  .namedetails {
+    display: none;
+  }
+  .TTT {
+    font-size: 0.8rem;
+  }
+}
+/* @media (max-width: 600px){
+  .namedetails1 {
+    display: none;
+  }
+} */
+.nameimage {
+  background-image: url(IMAGE.5.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+.details {
+  color: black;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+/* .namedetails1{
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 110px;
+  width: 250px;
+  border-radius: 7px;
+  position: absolute;
+  top: 62%;
+  right: 49%;
+  left: 15%; 
+  justify-content: space-around;
+}
+.nameimage1 {
+  background-image: url(IMAGE.5.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-top: 20px;
+}
+.details1 {
+  color: black;
+  margin-top: 20px;
+  font-size: 1.5rem;
+} */
+.BUTTON2 {
+  margin: 80px 175px auto;
+}
+.QWERT {
+  height: 67px;
+  width: 290px;
+  border-radius: 8px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  background-color: #060b0f;
+  color: #b6b6b6;
+  font-weight: bold;
+  cursor: pointer;
+  filter: brightness(110%);
+}
+.Button1 button {
+  width: 190px;
+  height: 55px;
+  color: white;
+  background-color: darkolivegreen;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  background-color: transparent;
+}
+@media (max-width: 768px) {
+  .con1 {
+    flex-direction: column;
+    background-color: rgba(157, 255, 0, 0.555);
+    /* column-gap: 0px;
+        row-gap: 0px; */
+  }
+  .HEADING h1 {
+    font-size: 20px;
+  }
+  .containerxx {
+    flex-direction: column;
+  }
+  .conB {
+    column-gap: 55px;
+  }
+  .con {
+    flex-direction: column;
+  }
+}
+.con1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.paragraph {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.heading2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+.conB {
+  display: flex;
+  flex-direction: row;
+  column-gap: 115px;
+}
+.conBA {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+  /* background-color: rgb(51, 17, 243); */
+}
+.conBB {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+  /* background-color: rgb(44, 223, 59); */
+}
+
+/* Another Section Include "Logos" and "Brand Names" of companies */
+
+.HEADING {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.HEADING h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: 2.8rem;
+}
+.companylogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+/* Section Includes "Company Brand names" */
+.CL1 {
+  /* border: 8px solid wheat; */
+  height: fit-content;
+  width: fit-content;
+  background-color: transparent;
+  display: flex;
+  /* justify-content: space-evenly; */
+  font-weight: bolder;
+  font-size: 2.85rem;
+  margin-top: 17px;
+  /* border: 4px solid  darkolivegreen ; */
+}
+
+/* Main Container */
+.containerxx {
+  height: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* Sub Container */
+.containerxx1 {
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+  justify-content: center;
+}
+
+/* First Div Styles */
+.YY {
+  background-image: url("IMAGE.5.jpg");
+  background-size: cover;
+  height: 380px;
+  width: 350px;
+}
+
+/* 2nd Div Styles */
+.EE {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.YYY {
+  background-image: url("IMAGE.6.jpg");
+  background-size: cover;
+  height: 380px;
+  width: 350px;
+}
+
+/* 3rd Div Styles */
+.EEE {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 80;
+  margin-top: 5px;
+}
+
+.YYYY {
+  background-image: url("IMAGE.3.jpg");
+  background-size: cover;
+  height: 380px;
+  width: 350px;
+}
+
+/* 4th Div Styles */
+.EEEE a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(0, 68, 255, 0.932);
+  text-decoration-line: none;
+}
+
+.YYYYY {
+  background-image: url("IMAGE.2.jpg");
+  background-size: cover;
+  height: 380px;
+  width: 350px;
+}
+
+/* New heading */
+/* Also, New Container */
+
+.DSA {
+  height: 750px;
+  margin-top: 80px;
+}
+
+.ttt h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+.ttt {
+  margin-top: 40px;
+}
+.ttt h4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* image in the background */
+
+.IMG6 {
+  background-image: url("IMAGE.4.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 1400px;
+  margin-top: 80px;
+}
+
+.IMG5 {
+  display: flex;
+  justify-content: center;
+}
+
+/* Another Container */
+.POP {
+  height: fit-content;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+/* .POP POP2{
+    display: flex;  
+    justify-content: center;
+} */
+
+/* Sub Div inside Container */
+.POP1 h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+/*  Another Sub Div inside Container */
+.POP2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+  background-color: #ffffff;
+  color: black;
+  height: 250px;
+  width: 1050px;
+  border-radius: 4px;
+}
+.POP2 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Adding Media Queries to the this div */
+@media (max-width: 768px) {
+  .POP {
+    flex-direction: column;
+  }
+  .POP1 h1 {
+    font-size: 0.9rem;
+  }
+}
+.Display {
+  height: 505px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Another Div in "Major Div"; */
+.Display1 {
+  height: 390px;
+  width: 1498px;
+  background-color: rgba(128, 128, 128, 0.349);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .Display {
+    flex-direction: column;
+  }
+  /* .Display1{
+        flex-direction: column;
+    } */
+}
+.form1 {
+  display: flex;
+  flex-direction: row;
+}
+.label:hover {
+  border: 3px solid black;
+}
+
+/* @media(max-width:100px){
+    .Displayinput{
+        flex-direction: column;
+    }
+} */
+
+.Displaytext {
+  font-size: 4.5rem;
+  color: darkolivegreen;
+  font-weight: bold;
+}
+.Displayinput {
+  display: flex;
+  flex-direction: end;
+}
+
+.label {
+  border-radius: 5px;
+  height: 43px;
+  width: 290px;
+  margin-top: 18px;
+  color: #424242;
+}
+.Buttaen {
+  border-radius: 5px;
+  height: 43px;
+  width: 125px;
+  margin-top: 18px;
+  background-color: #424242;
+  color: #ffffff;
+}
+
+/* Main Div/ Footer */
+.footer {
+  height: 500px;
+  width: 100%;
+  background-color: #424242;
+  border-radius: 8px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+/* Links in Sub "DIV" Assciated with Major div in "FOOTER" */
+.LINKS {
+  color: whitesmoke;
+  text-decoration-line: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+}
+.LINKS:hover {
+  color: black;
+}
+
+/* First Sub "DIV" in "MAJOR DIV" in "FOOTER" */
+.subfooter {
+  display: flex;
+  margin-top: 55px;
+  column-gap: 50px;
+}
+
+/* Second Sub "DIV" in "MAJOR DIV" in "FOOTER" */
+.subfooter1 {
+  display: flex;
+  column-gap: 50px;
+}

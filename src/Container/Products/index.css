@@ -1,0 +1,71 @@
+/* Main Page containing whole data */
+.productspage {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: darkgray;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Main Page containing three  "divs"
+  1. "Logo" */
+
+.logo {
+  font-size: 2.8rem;
+}
+
+/* 2. Navitems */
+.navitems {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.showNavBtn {
+  display: none;
+}
+
+.navitems_show {
+  display: flex !important;
+  /* flex-direction:column ; */
+}
+
+/* Adding Media queries to "Navitems" */
+@media screen and (max-width: 480px) {
+  .navitems {
+    display: none;
+  }
+  .showNavBtn {
+    display: block;
+  }
+}
+
+/* Adding style to "Links" */
+.links {
+  color: white;
+  text-decoration-line: none;
+  font-size: 1.8rem;
+}
+
+/* Adding style to "Button" */
+.btn button {
+  height: 48px;
+  width: 179px;
+  border-radius: 5px;
+  background-color: #07073a5d;
+  cursor: pointer;
+}
+
+.btn p {
+  color: black;
+  font-size: 0.95rem;
+}
